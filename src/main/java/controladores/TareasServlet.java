@@ -38,7 +38,7 @@ public class TareasServlet extends HttpServlet {
         if(pathInfo == null || "/".equals(pathInfo)){
             request.getRequestDispatcher("/WEB-INF/views/listarTareas.jsp").forward(request,response);
         } else if("/nueva".equals(pathInfo)){
-            request.getRequestDispatcher("/WEB/INF/views/nuevaTarea.jsp").forward(request, response);
+            request.getRequestDispatcher("/WEB-INF/views/nuevaTarea.jsp").forward(request, response);
         } else if(pathInfo.startsWith("/completar/")){
             try{
                 int id = Integer.parseInt(pathInfo.substring("/completar/".length()));
