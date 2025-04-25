@@ -12,12 +12,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Lista de Tareas</title>
-    <style>
-        .completada {
-            text-decoration: line-through;
-            color: gray;
-        }
-    </style>
 </head>
 <body>
     <h1>Lista de Tareas</h1>
